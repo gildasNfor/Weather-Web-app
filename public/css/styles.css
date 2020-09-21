@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-color: #1d2d50;
+  padding: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: #1d2d50;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin: 5px;
+}
+
+
+.symbol {
+  background-color: orange;
+  border-radius: 40%;
+  padding: 0 5px;
+}
+
+::placeholder {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 200px;
+  margin: 16px;
+  float: left;
+  text-align: left;
+}
+
+.temp{
+
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.celsuis{
+
+  font-size: 25px;
+  top: -.8em;
+}

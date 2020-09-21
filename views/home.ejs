@@ -1,0 +1,19 @@
+<%- include("header") -%>
+
+  <h1 class="heading">Simple Weather App</h1>
+  <form action="/" method="post">
+    <input type="text" name="cityName" placeholder="Search for a city" autocomplete="off">
+    <button class="btn btn-danger" type="submit" name="button">Submit</button>
+  </form>
+
+  <% weatherInfo.map((data) => { %>
+  <div class="note">
+    <p><%= data.name %><sup class="symbol"><%= data.symbol %></sup></p>
+    <p class="temp"><%= data.temp %><sup class="celsuis">&#8451;</sup></p>
+    <p><img src="<%= data.image%>" alt="Weather Image"></p>
+    <p><%= data.description%></p>
+  </div>
+  <% }) %>
+</body>
+
+</html>
